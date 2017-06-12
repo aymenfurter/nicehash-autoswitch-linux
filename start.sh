@@ -137,7 +137,7 @@ do
 	   		echo "New Algo! Lets kill current process and start new one!"
 		 	pkill -f ccminer
 	   		pkill -f nhe
-			nohup ~/nh/build/nheqminer -l equihash.eu.nicehash.com:3357 -u 1KdMRzZjTPNVoUD4oYszKYJSVCWgFSKq2X -cd 0 &>/dev/null &
+	   		nohup ./ccm/ccminer/ccminer -a Lyra2REv2 -o stratum+tcp://lyra2rev2.eu.nicehash.com:3347 -u 1KdMRzZjTPNVoUD4oYszKYJSVCWgFSKq2X -p x &>/dev/null &
 	   	fi	   	
 	fi
 
